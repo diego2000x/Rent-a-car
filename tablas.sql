@@ -40,3 +40,7 @@ CREATE TABLE IF NOT EXISTS Arriendo (
     FOREIGN KEY (empleado_run) REFERENCES Empleado(run) ON DELETE RESTRICT ON UPDATE CASCADE,
     FOREIGN KEY (vehiculo_patente) REFERENCES Vehiculo(patente) ON DELETE RESTRICT ON UPDATE CASCADE
 );
+
+###nombre base de datos: viaja_seguro_db
+###nombre de usuario:  administrador.viaja_seguro 
+###constraseña: administrador123
