@@ -1,7 +1,8 @@
+from persona import Persona
 
-
-class Cliente:
-    def __init__(self, telefono, direccion, clientes):
+class Cliente(Persona):
+    def __init__(self, run, nombre, apellido, telefono, direccion, clientes):
+        super().__init__(run, nombre, apellido)
         self.__telefono = telefono
         self.__direccion = direccion
         self.__clientes = clientes
